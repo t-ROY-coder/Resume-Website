@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 html {
@@ -96,13 +96,12 @@ em {
 }
 
 header section {
-    width: 77%;
+    width: 75%;
     margin: 0;
 }
 
 nav {
     float: left;
-    position: fixed;
     margin: 5px 0 0 5%;
     color: #ffffff;
 }
@@ -126,4 +125,15 @@ nav {
 .skills-col li {
     margin-bottom: 10px;
     display: block;
+}
+
+.stars {
+    float: right;
+    color: #2980b9;
+    font-size: 80%;
+    margin-right: 5%;
+}
+
+.stars .ion-icon {
+    margin: auto 0;
 }
