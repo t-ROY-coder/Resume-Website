@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 
 html {
@@ -71,11 +71,12 @@ h2:after {
 h3 {
     color: #2980b9;
     font-size: 110%;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 em {
     font-size: 80%;
+    margin-bottom: 10px;
 }
 
 .pic {
@@ -103,6 +104,14 @@ header section {
 nav {
     float: left;
     margin: 5px 0 0 5%;
+    width: 20%;
+}
+
+nav li {
+    display: block;
+}
+
+nav h3 {
     color: #ffffff;
 }
 
