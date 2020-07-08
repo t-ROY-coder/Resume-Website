@@ -26,6 +26,7 @@ section {
 header {
     margin: 5%;
     display: block;
+    line-height: 150%;
 }
 
 li {
@@ -85,7 +86,7 @@ em {
 
 .pic img {
     border-radius: 50%;
-    width: 20vw;
+    width: 15vw;
     height: auto;
     float: left;
 }
@@ -111,6 +112,11 @@ nav li {
     display: block;
 }
 
+header li {
+    margin-bottom: 0;
+}
+
+header h3,
 nav h3 {
     color: #ffffff;
 }
