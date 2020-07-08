@@ -26,7 +26,7 @@ section {
 header {
     margin: 5%;
     display: block;
-    line-height: 150%;
+    line-height: 120%;
 }
 
 li {
@@ -98,7 +98,7 @@ em {
 }
 
 header section {
-    width: 75%;
+    width: 74%;
     margin: 0;
 }
 
@@ -119,6 +119,14 @@ header li {
 header h3,
 nav h3 {
     color: #ffffff;
+}
+
+header h3 {
+    margin-top: 20px;
+}
+
+header em {
+    font-size: 100%;
 }
 
 .info {
