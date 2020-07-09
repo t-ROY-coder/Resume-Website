@@ -7,13 +7,13 @@
 
 html {
     color: #555555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: "Lato", "Arial", sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
 
 body {
-    background-image: linear-gradient(rgba(41, 128, 185, 1.0), rgba(0, 0, 0, 0.7)), url('../img/texture_dark_lines_126785_3840x2160.jpg');
+    background-image: linear-gradient(rgba(41, 128, 185, 1), rgba(0, 0, 0, 0.7)), url("../img/texture_dark_lines_126785_3840x2160.jpg");
     background-attachment: fixed;
 }
 
@@ -24,9 +24,11 @@ section {
 }
 
 header {
-    margin: 5%;
+    margin: 3%;
+    padding: 30px;
     display: block;
     line-height: 120%;
+    border-bottom: 1px solid #ffffff;
 }
 
 li {
@@ -110,6 +112,7 @@ nav {
 
 nav li {
     display: block;
+    text-align: center;
 }
 
 header li {
