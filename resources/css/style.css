@@ -40,6 +40,25 @@ a {
 li {
     list-style: none;
     margin-bottom: 30px;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+nav li {
+    padding: 10px;
+}
+
+section li {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.section-skills li {
+    margin: 0;
+}
+
+section li:hover {
+    background-color: #eeeeee;
 }
 
 h1,
@@ -93,6 +112,7 @@ em {
 }
 
 .pic img {
+    margin-top: 50px;
     border-radius: 50%;
     width: 15vw;
     height: auto;
@@ -182,6 +202,6 @@ header em {
 }
 
 .sticky {
-    top: 65px;
+    top: 10px;
     position: fixed;
 }

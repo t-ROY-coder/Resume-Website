@@ -9,5 +9,4 @@ var waypoint = new Waypoint({
             document.querySelector(".main-nav").classList.remove("sticky");
         }
     },
-    offset: "20%",
 });
