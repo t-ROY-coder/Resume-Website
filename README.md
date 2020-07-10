@@ -1,2 +1,2 @@
 # Resume-Website
-Building a resume website using HTML, CSS and JS
+My resume website using HTML, CSS and JS
