@@ -45,10 +45,6 @@ li {
    transition: background-color 0.2s;
 }
 
-nav li {
-   padding: 10px;
-}
-
 section li {
    padding: 20px;
    margin-bottom: 10px;
@@ -141,14 +137,22 @@ nav {
    position: relative;
 }
 
+.main-nav {
+   width: max-content;
+}
+
 nav li {
    display: block;
+   padding: 10px;
+   margin-bottom: 15px;
 }
 
 nav a:link,
 nav a:visited {
    color: #ffffff;
    transition: border 0.2s, letter-spacing 0.2s;
+   padding-bottom: 5px;
+   border-bottom: 1px solid transparent;
 }
 
 nav a:hover,
@@ -214,4 +218,12 @@ header em {
    font-size: 150%;
    margin-right: 30px;
    margin-top: 15px;
+}
+
+.section-icon {
+   font-size: 110%;
+   vertical-align: middle;
+   line-height: 100%;
+   margin-right: 10px;
+   display: inline-block;
 }
