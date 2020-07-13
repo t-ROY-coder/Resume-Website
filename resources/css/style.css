@@ -100,6 +100,10 @@ h3 {
    margin-bottom: 3px;
 }
 
+h3 em {
+   text-transform: none;
+}
+
 em {
    font-size: 80%;
    margin-bottom: 10px;
