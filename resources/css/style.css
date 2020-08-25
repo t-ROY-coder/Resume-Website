@@ -1,233 +1,249 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   /*border: 1px solid black;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
 }
 
 html {
-   color: #555555;
-   font-family: "Lato", "Arial", sans-serif;
-   font-size: 20px;
-   text-rendering: optimizeLegibility;
-   scroll-behavior: smooth;
+    color: #555555;
+    font-family: "Lato", "Arial", sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
 body {
-   background-image: linear-gradient(rgba(41, 128, 185, 1), rgba(0, 0, 0, 0.7)),
-      url("../img/texture_dark_lines_126785_3840x2160.jpg");
-   background-attachment: fixed;
+    background-image: linear-gradient(rgba(41, 128, 185, 1), rgba(0, 0, 0, 0.7)), url("../img/texture_dark_lines_126785_3840x2160.jpg");
+    background-attachment: fixed;
 }
 
 section {
-   width: 67%;
-   float: right;
-   margin: 10px 5%;
+    width: 67%;
+    float: right;
+    margin: 10px 5%;
 }
 
 header {
-   margin: 3%;
-   padding: 30px;
-   display: block;
-   line-height: 120%;
-   border-bottom: 1px solid #ffffff;
+    margin: 3%;
+    padding: 30px;
+    display: block;
+    line-height: 120%;
+    border-bottom: 1px solid #ffffff;
 }
 
 a {
-   text-decoration: none;
-   color: #2980b9;
+    text-decoration: none;
+    color: #2980b9;
 }
 
 li {
-   list-style: none;
-   margin-bottom: 30px;
-   border-radius: 10px;
-   transition: background-color 0.2s;
+    list-style: none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: background-color 0.2s;
 }
 
 section li {
-   padding: 20px;
-   margin-bottom: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
 .section-skills li {
-   margin: 0;
+    margin: 0;
 }
 
 section li:hover {
-   background-color: #eeeeee;
+    background-color: #eeeeee;
+}
+
+.in-section-list-head {
+    margin-bottom: 5px;
+    font-size: 100;
+}
+
+.in-section-list {
+    margin-top: 5px;
+}
+
+.in-section-list li {
+    font-style: italic;
+    font-size: 80%;
+    padding: 0;
+    margin-left: 50px;
+    list-style: circle;
 }
 
 h1,
 h2,
 h3 {
-   font-weight: 300;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 h1 {
-   margin-top: 0;
-   font-weight: 400;
-   color: #ffffff;
-   font-size: 250%;
-   word-spacing: 5px;
-   letter-spacing: 5px;
-   display: block;
+    margin-top: 0;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 250%;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    display: block;
 }
 
 h2 {
-   font-size: 180%;
-   word-spacing: 2px;
-   text-align: center;
-   margin-top: 20px;
-   margin-bottom: 30px;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 h2:after {
-   display: block;
-   height: 2px;
-   background-color: #2980b9;
-   content: " ";
-   width: 100px;
-   margin: 0 auto;
-   margin-top: 20px;
+    display: block;
+    height: 2px;
+    background-color: #2980b9;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 h3 {
-   color: #2980b9;
-   font-size: 110%;
-   margin-bottom: 3px;
+    color: #2980b9;
+    font-size: 110%;
+    margin-bottom: 3px;
 }
 
 h3 em {
-   text-transform: none;
+    text-transform: none;
 }
 
 em {
-   font-size: 80%;
-   margin-bottom: 10px;
+    font-size: 80%;
+    margin-bottom: 10px;
 }
 
 .pic {
-   display: inline-block;
+    display: inline-block;
 }
 
 .pic img {
-   margin-top: 50px;
-   border-radius: 50%;
-   width: 15vw;
-   height: auto;
-   float: left;
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 15vw;
+    height: auto;
+    float: left;
 }
 
 .name-box {
-   float: left;
-   color: #ffffff;
-   margin: 0;
-   padding: 35px;
-   border-left: 1px solid #ffffff;
+    float: left;
+    color: #ffffff;
+    margin: 0;
+    padding: 35px;
+    border-left: 1px solid #ffffff;
 }
 
 header section {
-   width: 78%;
-   margin: 0;
+    width: 78%;
+    margin: 0;
 }
 
 nav {
-   float: left;
-   margin: 5px 0 0 3%;
-   width: 20%;
-   position: relative;
+    float: left;
+    margin: 5px 0 0 3%;
+    width: 20%;
+    position: relative;
 }
 
 .main-nav {
-   width: max-content;
+    width: max-content;
 }
 
 nav li {
-   display: block;
-   padding: 10px;
-   margin-bottom: 15px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 nav a:link,
 nav a:visited {
-   color: #ffffff;
-   transition: border 0.2s, letter-spacing 0.2s;
-   padding-bottom: 5px;
-   border-bottom: 1px solid transparent;
+    color: #ffffff;
+    transition: border 0.2s, letter-spacing 0.2s;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
 }
 
 nav a:hover,
 nav a:active {
-   letter-spacing: 5px;
-   border-bottom: 1px solid #ffffff;
+    letter-spacing: 5px;
+    border-bottom: 1px solid #ffffff;
 }
 
 header li {
-   margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 header h3,
 nav h3 {
-   color: #ffffff;
+    color: #ffffff;
 }
 
 header h3 {
-   margin-top: 20px;
+    margin-top: 20px;
 }
 
 header em {
-   font-size: 100%;
+    font-size: 100%;
 }
 
 .info {
-   background-color: #ffffff;
-   border-radius: 10px;
-   padding: 10px;
-   box-shadow: inset;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset;
 }
 
 .ion-icon {
-   margin-bottom: -5px;
+    margin-bottom: -5px;
 }
 
 .skills-col {
-   width: 50%;
-   float: left;
+    width: 50%;
+    float: left;
 }
 
 .skills-col li {
-   margin-bottom: 10px;
-   display: block;
+    margin-bottom: 10px;
+    display: block;
 }
 
 .stars {
-   float: right;
-   color: #2980b9;
-   margin-right: 5%;
+    float: right;
+    color: #2980b9;
+    margin-right: 5%;
 }
 
 .stars .ion-icon {
-   margin: auto 0;
+    margin: auto 0;
 }
 
 .sticky {
-   top: 10px;
-   position: fixed;
+    top: 10px;
+    position: fixed;
 }
 
 .profile-icon {
-   font-size: 150%;
-   margin-right: 30px;
-   margin-top: 15px;
+    font-size: 150%;
+    margin-right: 30px;
+    margin-top: 15px;
 }
 
 .section-icon {
-   font-size: 110%;
-   vertical-align: middle;
-   line-height: 100%;
-   margin-right: 10px;
-   display: inline-block;
+    font-size: 110%;
+    vertical-align: middle;
+    line-height: 100%;
+    margin-right: 10px;
+    display: inline-block;
 }
